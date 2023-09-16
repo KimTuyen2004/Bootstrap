@@ -1,0 +1,136 @@
+/* body */
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* table */
+table{
+    width: 100%;
+}
+/* thead and td */
+thead , th{
+    height: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+    background-color: orange;
+    color: white;  
+    margin: 0;
+}
+.product , .price, .buttons_added, .total{
+    position: relative;
+    margin: 0;
+    top: 90px;
+}
+.product h2 , .price ,.total{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.product p{
+    font-size: 20px;
+}
+
+/* button quantity */
+.buttons_added {
+    opacity: 1;
+    display: inline-block;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.is-form {
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9;
+    height: 60px;
+    width: 1.9rem;
+    padding: 0;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #ddd;
+}
+
+.is-form:focus,
+.input-text:focus {
+    outline: none;
+}
+
+.is-form.minus {
+    border-radius: 4px 0 0 4px;
+    width: 30px;
+    height: 40px;
+}
+
+.is-form.plus {
+    border-radius: 0 4px 4px 0;
+    width: 30px;
+    height: 40px;
+}
+
+.input-qty {
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    border: 1px solid black;
+    padding: 0;
+}
+
+.input-qty::-webkit-outer-spin-button,
+.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Total and button */
+.total{
+    color: orange;
+}
+button{
+    margin-left: 10px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: rgb(198, 196, 196);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

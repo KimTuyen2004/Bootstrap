@@ -1,0 +1,63 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+/* header */
+.nav{
+    display: flex;
+}
+.nav_header{
+    height: 100px;
+    position: relative;
+    top: 30px;
+    display: inline-flex;
+    width: 50%;
+    justify-content: center;
+    color: orange;
+    font-weight: bolder;
+    font-size: 30px;
+}
+/* nav */
+.navbar-fluid{
+    width: 100%;
+    display: flex;
+}
+/* menu */
+.navbar_nav{
+    width: 25%;
+}
+.nav-item a{
+    color: grey;
+}
+/* icon */
+.icon1{
+    margin-left: 100px;
+}
+.icon2{
+    margin-left: 135px;
+}
+.icon3{
+    margin-left: 110px;
+}
+.container-cart{
+    width: 75%;
+}
+.card{
+    width: 20%;
+    display: inline-flex;
+    margin-left: 55px;
+}
+.card-body{
+    color: grey;
+    text-align: center;
+}
+h2{
+    color: orange;
+}
+
+button{
+    color: grey;
+    border: none;
+}
+button:hover{
+    color: orange;
+}
